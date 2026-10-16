@@ -2,7 +2,7 @@
 
 A multilingual travel-agency platform prototype for exploring tours and supporting agency staff workflows. It combines a demo tour catalog, tenant-scoped customer and lead management, agency knowledge sources with citations, and a supplier-offer panel that makes the source and freshness of sample data visible.
 
-> **Demo status:** A public Live Demo is being prepared. No public demo is available yet.
+> **Demo status:** [Open the public Live Demo](https://travelnova-vitaliov-demo.onrender.com/). It uses synthetic data only; it does not provide real bookings or confirmed prices. On Render Free, the first startup after inactivity may take some time, and demo data and sessions may reset.
 
 ## What the prototype includes
 
@@ -33,13 +33,13 @@ Node.js 20+, Express 5, SQLite as the local default store, and an optional Postg
 - Supplier offers in this build are **synthetic test data only**. No real supplier is connected. Real-world prices and availability are not confirmed; sample values must not be treated as quotes.
 - There is no booking or payment flow.
 - Expired or unavailable offers are not presented as confirmed current prices or availability.
-- The public Live Demo is still being prepared; the link will be added here after a separate review and deployment.
+- The public Live Demo runs on Render Free with synthetic data. After inactivity, its first startup may take some time; demo data and sessions may reset.
 - Automated offline tests and browser checks cover defined local fixtures and application behavior. They are **not** production testing, a production security audit, a live AI quality assessment, or evidence of service availability.
 - Knowledge search is lexical and does not include OCR or vector embeddings.
 
 ## Live Demo
 
-**Coming soon — public deployment has not been created.**
+[Open the public Live Demo](https://travelnova-vitaliov-demo.onrender.com/)
 
 ---
 
